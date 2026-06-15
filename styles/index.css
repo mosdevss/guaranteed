@@ -5,3 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.page_about {
+  background-color: black !important;
+  color: orangered;
+  height: 100vh;
+  width: 100vw;
+}
