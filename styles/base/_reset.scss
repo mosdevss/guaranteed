@@ -27,8 +27,8 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role=list],
-ol[role=list] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -59,8 +59,7 @@ h4 {
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
   color: currentColor;
 }
 
@@ -89,28 +88,3 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
-
-html {
-  font-size: 62.5%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-body {
-  background-color: #ffffff;
-  color: #0f0f0f;
-  font-size: 1.6rem; /* Restores the readable size back to 16px for global text */
-  max-width: 100%;
-  padding: 0 2rem;
-}
-@media (min-width: 768px) {
-  body {
-    background-color: #4f46e5;
-    color: #ffffff;
-  }
-}
-
-h1 {
-  font-size: 7.2rem;
-  margin-block-start: 0;
-  margin-block-end: 0;
-}/*# sourceMappingURL=index.css.map */
